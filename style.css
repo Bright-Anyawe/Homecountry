@@ -1,0 +1,211 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+:root {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#hero {
+  background-image: url('Images/TheAfricanDream.webp');
+  background-size: 100% 100%;
+  /* background-repeat: no-repeat; */
+  height: 400px;
+  position: relative;
+}
+
+#hero-text {
+  position: relative;
+  top: 100px;
+  left: 180px;
+
+}
+
+.hero-text1 {
+  position: relative;
+  width: 225px;
+  height: 42px;
+  bottom: 10px;
+  left: 395px;
+  color: #FFFFFF;
+  background: #1D3557;
+  border-radius: 10px;
+  margin: 0;
+  font-family: Arial;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36.8px;
+  text-align: center;
+
+
+}
+
+.hero-text2 {
+  position: relative;
+  width: 412px;
+  height: 52px;
+  top: 0px;
+  left: 299px;
+  border-radius: 10px;
+  background: #457B9D;
+  color: #FFFFFF;
+  margin: 0;
+  font-family: Arial;
+  font-size: 18.72px;
+  font-weight: 700;
+  line-height: 21.53px;
+  text-align: center;
+
+}
+
+#activities {
+  background-color: #F1FAEE;
+}
+
+.activities-title {
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27.6px;
+  text-align: center;
+  color: #1D3557;
+  width: 439px;
+  height: 20px;
+  position: relative;
+  top: 20px;
+  left: 450px;
+  margin: 0;
+}
+
+#image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 64px;
+}
+
+#activities img[src $='.jpg'] {
+  height: 180px;
+  width: 180px;
+  /* object-fit: fill; */
+  border-radius: 50%;
+}
+
+[src *='fest'] {
+  height: 180px;
+}
+
+#image-section :first-child, :last-child {
+  margin: 0;
+}
+
+figcaption :first-child {
+  display: flex;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.4px;
+  text-align: center;
+  color: #1D3557;
+  width: 183px;
+  height: 32px;
+  /* margin-bottom: 10px; */
+}
+
+figcaption :nth-child(2n) {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.4px;
+  text-align: center;
+  width: 250px;
+  height: 55px;
+}
+
+figcaption :nth-child(1) {
+  display: flex;
+  gap: 1rem;
+  width: 234px;
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#guide-container {
+  /* width: 720px; */
+  height: 394px;
+  top: 721px;
+  display: flex;
+  align-items: center;
+
+}
+
+#guide {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 28rem;
+  width: 400px;
+  height: 300px;
+  background-color: #A8DADC;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 0px 0px #1D3557;
+
+}
+
+
+#guide img {
+  width: 180px;
+  height: 248.67px;
+  border-radius: 10px;
+}
+
+.guide-content {
+  color: #1D3557;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: #1D3557;
+  position: relative;
+  bottom: 30px;
+  width: 210px;
+}
+
+.guide-content>h3 {
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27.6px;
+  text-align: center;
+  margin: 10px;
+
+}
+
+.guide-content :nth-child(2) {
+  font-family: Arial;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 18.4px;
+  text-align: center;
+
+}
